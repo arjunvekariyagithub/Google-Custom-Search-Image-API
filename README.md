@@ -19,3 +19,8 @@
     
 ### Why I choose Glide amonst many available options?
 I have experimented with other Image loading libraries: [Picasso](http://square.github.io/picasso/), [Volly](https://github.com/google/volley) and [Fresco](https://github.com/facebook/fresco), but [Glide](https://github.com/bumptech/glide) seems to be performing best amongst all due to it's well optimized Cache mechanism.
+
+# Screenshots
+Search              |  Full screen image  |  Details screen
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/arjunvekariyagithub/smule_test/master/screens/search.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/smule_test/master/screens/full_screen.png" width="320" height="510" />  |  <img src="https://raw.githubusercontent.com/arjunvekariyagithub/smule_test/master/screens/details.png" width="320" height="510" />
