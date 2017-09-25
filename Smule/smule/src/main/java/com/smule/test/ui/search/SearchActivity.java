@@ -102,9 +102,9 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
                     @Override
                     public void onLoadMore(int page, int totalItemsCount) {
                         // Triggered only when new data needs to be appended to the list
-//                        if (mSearchViewModel.getNextPageOffset() != -1) {
-//                            mSearchViewModel.fetchImages(mQuery, mSearchViewModel.getNextPageOffset());
-//                        }
+                        if (mSearchViewModel.getNextPageOffset() != -1) {
+                            mSearchViewModel.fetchImages(mQuery, mSearchViewModel.getNextPageOffset());
+                        }
                     }
                 });
     }
