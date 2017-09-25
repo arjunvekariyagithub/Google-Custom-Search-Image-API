@@ -1,5 +1,4 @@
-# smule_test
-Smule Android challenge
+# Smule Android challenge
 
 ## Libraries
   - [Retrofit](https://square.github.io/retrofit/) as HTTP client
