@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_margin_bottom">2dp</dimen>
+    <dimen name="item_margin_hor">1dp</dimen>
+    <dimen name="item_margin_ver">1dp</dimen>
+</resources>

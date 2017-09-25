@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.smule.test.ui.details.DetailsViewModel" />
+
+    </data>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.smule.test.ui.details.DetailsActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+    <include
+        layout="@layout/error_layout"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+</layout>

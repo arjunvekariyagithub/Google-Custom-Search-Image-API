@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:textViewStyle">@style/SanSerifTextViewStyle</item>
+    </style>
+</resources>

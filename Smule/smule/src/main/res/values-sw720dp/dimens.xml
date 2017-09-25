@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- List -->
+    <dimen name="item_height">300dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="text_price_margin_left">7dp</dimen>
+    <dimen name="text_price_margin_bottom">5dp</dimen>
+    <dimen name="text_name_margin_top">8dp</dimen>
+</resources>
