@@ -1,4 +1,4 @@
-# Smule Android challenge
+# Android sample app for consuming Google's custom image search Rest APIs using MVVM architecture
 
 ## Libraries
   - [Retrofit](https://square.github.io/retrofit/) as HTTP client
